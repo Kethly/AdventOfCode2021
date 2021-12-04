@@ -1,6 +1,4 @@
-#gamma = 0 #most common
-#epsilon = 0 #least common, the opposite
-with open('adventsubmarine.txt') as f:
+with open('input.txt') as f:
     fullInput = [x.strip() for x in f.readlines()]
 lines = str(fullInput[0])
 test = fullInput[2:]
